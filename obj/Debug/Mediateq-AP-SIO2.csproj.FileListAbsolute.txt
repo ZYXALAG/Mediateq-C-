@@ -1,0 +1,236 @@
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.AssemblyReference.cache
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.Properties.Resources.resources
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.GenerateResource.cache
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CoreCompileInputs.cache
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.FrmMediateq.resources
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe.config
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.pdb
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\MySql.Data.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Buffers.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Memory.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\ZstdNet.dll
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.pdb
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.xml
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\MySql.Data.xml
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Buffers.xml
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Memory.xml
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CopyComplete
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.exe
+C:\Users\slam\Documents\AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.pdb
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe.config
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.pdb
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\BouncyCastle.Crypto.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\MySql.Data.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Buffers.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Memory.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Ubiety.Dns.Core.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\ZstdNet.dll
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.pdb
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.xml
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.xml
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.xml
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.xml
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\MySql.Data.xml
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Buffers.xml
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Memory.xml
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.xml
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.Properties.Resources.resources
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.FrmMediateq.resources
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.GenerateResource.cache
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CoreCompileInputs.cache
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CopyComplete
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.exe
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.pdb
+P:\_AP-Mediateq\Mediateq-AP-SIO2\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.AssemblyReference.cache
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe.config
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.pdb
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\BouncyCastle.Crypto.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\MySql.Data.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Buffers.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.IO.Pipelines.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Memory.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\ZstdSharp.dll
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\BouncyCastle.Crypto.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.pdb
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\MySql.Data.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Buffers.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.IO.Pipelines.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Memory.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csprojAssemblyReference.cache
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.Properties.Resources.resources
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.FrmMediateq.resources
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.GenerateResource.cache
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CoreCompileInputs.cache
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CopyComplete
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.exe
+D:\BTS_SIO2\AP\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.pdb
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csprojAssemblyReference.cache
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.Properties.Resources.resources
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.FrmMediateq.resources
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.GenerateResource.cache
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CoreCompileInputs.cache
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.exe
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.pdb
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe.config
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.pdb
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\MySql.Data.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Buffers.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.IO.Pipelines.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Memory.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\ZstdSharp.dll
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.pdb
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\MySql.Data.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Buffers.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.IO.Pipelines.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Memory.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\adrien.leschaeve\Downloads\AP-C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CopyComplete
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe.config
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.pdb
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\BouncyCastle.Crypto.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\MySql.Data.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Buffers.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.IO.Pipelines.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Memory.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\ZstdSharp.dll
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\BouncyCastle.Crypto.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.pdb
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\MySql.Data.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Buffers.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.IO.Pipelines.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Memory.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.AssemblyReference.cache
+E:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.SuggestedBindingRedirects.cache
+E:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.Properties.Resources.resources
+E:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.FrmMediateq.resources
+E:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.GenerateResource.cache
+E:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CoreCompileInputs.cache
+E:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CopyComplete
+E:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.exe
+E:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.pdb
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe.config
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.exe
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.pdb
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\BouncyCastle.Crypto.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\MySql.Data.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Buffers.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.IO.Pipelines.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Memory.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\ZstdSharp.dll
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\BouncyCastle.Crypto.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.pdb
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\Google.Protobuf.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\K4os.Hash.xxHash.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\MySql.Data.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Buffers.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.IO.Pipelines.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Memory.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Numerics.Vectors.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.Properties.Resources.resources
+D:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq_AP_SIO2.FrmMediateq.resources
+D:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.GenerateResource.cache
+D:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.CoreCompileInputs.cache
+D:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.exe
+D:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.pdb
+D:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq-AP-SIO2.csproj.AssemblyReference.cache
+D:\AP C#\Mediateq-AP-SIO2\obj\Debug\Mediateq.14FC0E1D.Up2Date
+D:\AP C#\Mediateq-AP-SIO2\bin\Debug\Mediateq-AP-SIO2.xml

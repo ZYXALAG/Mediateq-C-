@@ -1,0 +1,985 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mediateq-AP-SIO2</name>
+    </assembly>
+    <members>
+        <member name="T:Mediateq_AP_SIO2.DAOFactory">
+            <summary>
+            Fournit des méthodes pour créer et gérer la connexion à la base de données MySQL.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.DAOFactory.connexion">
+            <summary>
+            Objet de connexion à la base de données MySQL.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAOFactory.creerConnection">
+            <summary>
+            Crée la connexion à la base de données MySQL avec les paramètres par défaut.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAOFactory.connecter">
+            <summary>
+            Ouvre la connexion à la base de données MySQL.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAOFactory.deconnecter">
+            <summary>
+            Ferme la connexion à la base de données MySQL.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAOFactory.execSQLRead(System.String)">
+            <summary>
+            Exécute une requête de lecture SQL et retourne un MySqlDataReader.
+            </summary>
+            <param name="requete">La requête SQL à exécuter.</param>
+            <returns>Un objet MySqlDataReader contenant les résultats de la requête.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAOFactory.execSQLWrite(System.String)">
+            <summary>
+            Exécute une requête d'écriture (Insert ou Update) sans retour.
+            </summary>
+            <param name="requete">La requête SQL à exécuter.</param>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.Categorie">
+            <summary>
+            Représente une catégorie avec un identifiant et un libellé.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Categorie.id">
+            <summary>
+            L'identifiant unique de la catégorie.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Categorie.libelle">
+            <summary>
+            Le libellé de la catégorie.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.Categorie.#ctor(System.String,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Mediateq_AP_SIO2.metier.Categorie"/> avec un identifiant et un libellé.
+            </summary>
+            <param name="id">L'identifiant de la catégorie.</param>
+            <param name="libelle">Le libellé de la catégorie.</param>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Categorie.Id">
+            <summary>
+            Obtient ou définit l'identifiant de la catégorie.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Categorie.Libelle">
+            <summary>
+            Obtient ou définit le libellé de la catégorie.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.Commande">
+            <summary>
+            Représente une commande de documents avec des détails sur le document, le nombre d'exemplaires, l'état, et la date de commande.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Commande.id_document">
+            <summary>
+            L'identifiant du document associé à la commande.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Commande.nomDocument">
+            <summary>
+            Le nom du document associé à la commande.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Commande.nbrExemplaire">
+            <summary>
+            Le nombre d'exemplaires commandés.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Commande.etat">
+            <summary>
+            L'état de la commande (par exemple, "En cours", "Livrée").
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Commande.dateCommande">
+            <summary>
+            La date à laquelle la commande a été passée.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.Commande.#ctor(System.Int32,System.String,System.Int32,System.String,System.DateTime)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Mediateq_AP_SIO2.metier.Commande"/> avec les détails de la commande.
+            </summary>
+            <param name="id_document">L'identifiant du document.</param>
+            <param name="nomDocument">Le nom du document.</param>
+            <param name="nbrExemplaire">Le nombre d'exemplaires commandés.</param>
+            <param name="etat">L'état de la commande.</param>
+            <param name="dateCommande">La date de la commande.</param>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Commande.IdDocument">
+            <summary>
+            Obtient ou définit l'identifiant du document associé à la commande.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Commande.NomDocument">
+            <summary>
+            Obtient ou définit le nom du document associé à la commande.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Commande.NbrExemplaire">
+            <summary>
+            Obtient ou définit le nombre d'exemplaires commandés.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Commande.Etat">
+            <summary>
+            Obtient ou définit l'état de la commande.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Commande.DateCommande">
+            <summary>
+            Obtient ou définit la date de la commande.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.Hash">
+            <summary>
+            Fournit des méthodes pour générer des valeurs de sel et pour hacher des mots de passe avec des algorithmes cryptographiques.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.Hash.GenerateSalt(System.Int32)">
+            <summary>
+            Génère un sel cryptographique de la longueur spécifiée.
+            </summary>
+            <param name="length">La longueur du sel à générer. Par défaut, 16 octets.</param>
+            <returns>Le sel généré, encodé en Base64.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.Hash.HashPassword(System.String,System.String)">
+            <summary>
+            Hache un mot de passe avec le sel spécifié en utilisant l'algorithme SHA-256.
+            </summary>
+            <param name="password">Le mot de passe à hacher.</param>
+            <param name="salt">Le sel à utiliser pour le hachage, encodé en Base64.</param>
+            <returns>Le hachage du mot de passe et du sel, encodé en Base64.</returns>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.User">
+            <summary>
+            Représente un utilisateur avec des détails tels que l'identifiant, le login, le mot de passe, le nom, le prénom et l'identifiant du service.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.User.id">
+            <summary>
+            L'identifiant unique de l'utilisateur.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.User.login">
+            <summary>
+            Le login de l'utilisateur.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.User.password">
+            <summary>
+            Le mot de passe de l'utilisateur.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.User.nom">
+            <summary>
+            Le nom de l'utilisateur.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.User.prenom">
+            <summary>
+            Le prénom de l'utilisateur.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.User.id_service">
+            <summary>
+            L'identifiant du service auquel l'utilisateur est associé.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.User.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Mediateq_AP_SIO2.metier.User"/> avec des détails spécifiques.
+            </summary>
+            <param name="id">L'identifiant de l'utilisateur.</param>
+            <param name="login">Le login de l'utilisateur.</param>
+            <param name="password">Le mot de passe de l'utilisateur.</param>
+            <param name="nom">Le nom de l'utilisateur.</param>
+            <param name="prenom">Le prénom de l'utilisateur.</param>
+            <param name="id_service">L'identifiant du service auquel l'utilisateur est associé.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.User.getId">
+            <summary>
+            Retourne l'identifiant de l'utilisateur.
+            </summary>
+            <returns>L'identifiant de l'utilisateur.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.User.getLogin">
+            <summary>
+            Retourne le login de l'utilisateur.
+            </summary>
+            <returns>Le login de l'utilisateur.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.User.getPassword">
+            <summary>
+            Retourne le mot de passe de l'utilisateur.
+            </summary>
+            <returns>Le mot de passe de l'utilisateur.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.User.getNom">
+            <summary>
+            Retourne le nom de l'utilisateur.
+            </summary>
+            <returns>Le nom de l'utilisateur.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.User.getPrenom">
+            <summary>
+            Retourne le prénom de l'utilisateur.
+            </summary>
+            <returns>Le prénom de l'utilisateur.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.User.getId_Service">
+            <summary>
+            Retourne l'identifiant du service associé à l'utilisateur.
+            </summary>
+            <returns>L'identifiant du service.</returns>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.Document">
+            <summary>
+            Représente un document avec des propriétés telles que l'identifiant, le titre, l'image, et la catégorie.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Document.idDoc">
+            <summary>
+            L'identifiant unique du document.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Document.titre">
+            <summary>
+            Le titre du document.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Document.image">
+            <summary>
+            Le chemin ou le nom du fichier de l'image associée au document.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Document.laCategorie">
+            <summary>
+            La catégorie du document.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.Document.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Mediateq_AP_SIO2.metier.Document"/> avec un identifiant, un titre, et une image.
+            </summary>
+            <param name="unId">L'identifiant du document.</param>
+            <param name="unTitre">Le titre du document.</param>
+            <param name="uneImage">Le chemin ou le nom du fichier de l'image associée au document.</param>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Document.IdDoc">
+            <summary>
+            Obtient ou définit l'identifiant du document.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Document.Titre">
+            <summary>
+            Obtient ou définit le titre du document.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Document.Image">
+            <summary>
+            Obtient ou définit le chemin ou le nom du fichier de l'image associée au document.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Document.LaCategorie">
+            <summary>
+            Obtient ou définit la catégorie du document.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.Descripteur">
+            <summary>
+            Représente un descripteur avec un identifiant et un libellé.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Descripteur.id">
+            <summary>
+            L'identifiant du descripteur.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Descripteur.libelle">
+            <summary>
+            Le libellé du descripteur.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.Descripteur.#ctor(System.String,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Mediateq_AP_SIO2.metier.Descripteur"/> avec un identifiant et un libellé.
+            </summary>
+            <param name="id">L'identifiant du descripteur.</param>
+            <param name="libelle">Le libellé du descripteur.</param>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Descripteur.Id">
+            <summary>
+            Obtient ou définit l'identifiant du descripteur.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Descripteur.Libelle">
+            <summary>
+            Obtient ou définit le libellé du descripteur.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.DVD">
+            <summary>
+            Représente un DVD, héritant de la classe <see cref="T:Mediateq_AP_SIO2.metier.Document"/>, avec des propriétés supplémentaires telles que le synopsis, le réalisateur, et la durée.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.DVD.synopsis">
+            <summary>
+            Le synopsis du DVD.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.DVD.realisateur">
+            <summary>
+            Le nom du réalisateur du DVD.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.DVD.duree">
+            <summary>
+            La durée du DVD, en minutes.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.DVD.#ctor(System.String,System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Mediateq_AP_SIO2.metier.DVD"/> avec un identifiant, un titre, un synopsis, un réalisateur, une durée, et une image.
+            </summary>
+            <param name="unId">L'identifiant du DVD.</param>
+            <param name="unTitre">Le titre du DVD.</param>
+            <param name="unSynopsis">Le synopsis du DVD.</param>
+            <param name="unRealisateur">Le réalisateur du DVD.</param>
+            <param name="uneDuree">La durée du DVD en minutes.</param>
+            <param name="uneImage">Le chemin ou le nom du fichier de l'image associée au DVD.</param>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.DVD.Synopsis">
+            <summary>
+            Obtient ou définit le synopsis du DVD.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.DVD.Realisateur">
+            <summary>
+            Obtient ou définit le nom du réalisateur du DVD.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.DVD.Duree">
+            <summary>
+            Obtient ou définit la durée du DVD en minutes.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.ExceptionSIO">
+            <summary>
+            Représente une exception personnalisée pour le système SIO avec des niveaux de gravité et des libellés spécifiques.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.ExceptionSIO.niveauExc">
+            <summary>
+            Le niveau de gravité de l'exception.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.ExceptionSIO.libelleExc">
+            <summary>
+            Le libellé ou la description de l'exception.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.ExceptionSIO.#ctor(System.Int32,System.String,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Mediateq_AP_SIO2.metier.ExceptionSIO"/> avec un niveau de gravité, un libellé, et un message d'exception.
+            </summary>
+            <param name="pNiveau">Le niveau de gravité de l'exception.</param>
+            <param name="pLibelle">Le libellé ou la description de l'exception.</param>
+            <param name="pMessage">Le message de l'exception.</param>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.ExceptionSIO.NiveauExc">
+            <summary>
+            Obtient ou définit le niveau de gravité de l'exception.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.ExceptionSIO.LibelleExc">
+            <summary>
+            Obtient ou définit le libellé ou la description de l'exception.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.Livre">
+            <summary>
+            Représente un livre, hérité de la classe <see cref="T:Mediateq_AP_SIO2.metier.Document"/>, avec des propriétés spécifiques telles que l'ISBN, l'auteur et la collection.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Livre.ISBN">
+            <summary>
+            Le numéro ISBN du livre.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Livre.auteur">
+            <summary>
+            Le nom de l'auteur du livre.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Livre.laCollection">
+            <summary>
+            Le nom de la collection à laquelle appartient le livre.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.Livre.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Mediateq_AP_SIO2.metier.Livre"/> avec un identifiant, un titre, un ISBN, un auteur, une collection, et une image.
+            </summary>
+            <param name="unId">L'identifiant du livre.</param>
+            <param name="unTitre">Le titre du livre.</param>
+            <param name="unISBN">Le numéro ISBN du livre.</param>
+            <param name="unAuteur">Le nom de l'auteur du livre.</param>
+            <param name="uneCollection">Le nom de la collection du livre.</param>
+            <param name="uneImage">Le chemin ou le nom du fichier de l'image associée au livre.</param>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Livre.ISBN1">
+            <summary>
+            Obtient ou définit le numéro ISBN du livre.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Livre.Auteur">
+            <summary>
+            Obtient ou définit le nom de l'auteur du livre.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Livre.LaCollection">
+            <summary>
+            Obtient ou définit le nom de la collection à laquelle appartient le livre.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.Parution">
+            <summary>
+            Représente une parution, c'est-à-dire une édition d'une revue ou d'un magazine.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Parution.numero">
+            <summary>
+            Le numéro de la parution.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Parution.dateParution">
+            <summary>
+            La date de la parution.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Parution.photo">
+            <summary>
+            Le chemin ou le nom du fichier de la photo associée à la parution.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Parution.idRevue">
+            <summary>
+            L'identifiant de la revue à laquelle la parution appartient.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.Parution.#ctor(System.Int32,System.DateTime,System.String,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Mediateq_AP_SIO2.metier.Parution"/> avec un numéro, une date de parution, une photo, et un identifiant de revue.
+            </summary>
+            <param name="numero">Le numéro de la parution.</param>
+            <param name="dateParution">La date de la parution.</param>
+            <param name="photo">Le chemin ou le nom du fichier de la photo associée à la parution.</param>
+            <param name="idRevue">L'identifiant de la revue à laquelle la parution appartient.</param>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Parution.Numero">
+            <summary>
+            Obtient ou définit le numéro de la parution.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Parution.DateParution">
+            <summary>
+            Obtient ou définit la date de la parution.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Parution.Photo">
+            <summary>
+            Obtient ou définit le chemin ou le nom du fichier de la photo associée à la parution.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Parution.IdRevue">
+            <summary>
+            Obtient ou définit l'identifiant de la revue à laquelle la parution appartient.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.Revue">
+            <summary>
+            Représente une revue ou un magazine avec des détails tels que l'identifiant, le titre, l'empruntabilité, la périodicité, la date de fin d'abonnement, et d'autres propriétés.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Revue.id">
+            <summary>
+            L'identifiant unique de la revue.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Revue.titre">
+            <summary>
+            Le titre de la revue.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Revue.empruntable">
+            <summary>
+            Indique si la revue est empruntable ("oui" ou "non").
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Revue.periodicite">
+            <summary>
+            La périodicité de la revue (par exemple, "mensuelle", "hebdomadaire").
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Revue.dateFinAbonnement">
+            <summary>
+            La date à laquelle l'abonnement à la revue prend fin.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Revue.delaiMiseADispo">
+            <summary>
+            Le délai avant que la revue soit disponible après sa parution, en jours.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.metier.Revue.idDescripteur">
+            <summary>
+            L'identifiant du descripteur associé à la revue.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.Revue.#ctor(System.String,System.String,System.String,System.String,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:Mediateq_AP_SIO2.metier.Revue"/> avec des informations spécifiques.
+            </summary>
+            <param name="id">L'identifiant de la revue.</param>
+            <param name="titre">Le titre de la revue.</param>
+            <param name="empruntable">Indique si la revue est empruntable.</param>
+            <param name="periodicite">La périodicité de la revue.</param>
+            <param name="dateFinAbonnement">La date de fin de l'abonnement.</param>
+            <param name="delaiMiseADispo">Le délai avant que la revue soit disponible après sa parution.</param>
+            <param name="idDescripteur">L'identifiant du descripteur associé à la revue.</param>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Revue.Id">
+            <summary>
+            Obtient ou définit l'identifiant de la revue.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Revue.Titre">
+            <summary>
+            Obtient ou définit le titre de la revue.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Revue.Empruntable">
+            <summary>
+            Obtient ou définit si la revue est empruntable.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Revue.Periodicite">
+            <summary>
+            Obtient ou définit la périodicité de la revue.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Revue.DateFinAbonnement">
+            <summary>
+            Obtient ou définit la date de fin de l'abonnement à la revue.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Revue.DelaiMiseADispo">
+            <summary>
+            Obtient ou définit le délai de mise à disposition de la revue, en jours.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.metier.Revue.IdDescripteur">
+            <summary>
+            Obtient ou définit l'identifiant du descripteur associé à la revue.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.metier.DAOConnexion">
+            <summary>
+            Classe responsable des opérations de connexion et d'inscription des utilisateurs.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.DAOConnexion.InscrireUser(System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Inscrit un nouvel utilisateur dans la base de données avec un login, un mot de passe haché et salé, un prénom, un nom, et un identifiant de service.
+            </summary>
+            <param name="login">Le login de l'utilisateur.</param>
+            <param name="password">Le mot de passe en clair de l'utilisateur.</param>
+            <param name="prenom">Le prénom de l'utilisateur.</param>
+            <param name="nom">Le nom de l'utilisateur.</param>
+            <param name="idService">L'identifiant du service associé à l'utilisateur.</param>
+            <returns>Vrai si l'inscription a réussi, sinon faux.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.metier.DAOConnexion.verifUser(System.String,System.String)">
+            <summary>
+            Vérifie si un utilisateur avec le login donné et le mot de passe correspondant existe dans la base de données.
+            </summary>
+            <param name="login">Le login de l'utilisateur à vérifier.</param>
+            <param name="password">Le mot de passe en clair de l'utilisateur à vérifier.</param>
+            <returns>Un objet <see cref="T:Mediateq_AP_SIO2.metier.User"/> si l'utilisateur est trouvé et le mot de passe correspond, sinon <c>null</c>.</returns>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.modele.DAOCommande">
+            <summary>
+            Classe responsable des opérations de base de données liées aux commandes.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.modele.DAOCommande.getAllCommande">
+            <summary>
+            Récupère toutes les commandes de la base de données.
+            </summary>
+            <returns>Une liste de commandes.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.modele.DAOCommande.getAllEtatCommande">
+            <summary>
+            Récupère tous les états des commandes de la base de données.
+            </summary>
+            <returns>Une liste des états de commande.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.modele.DAOCommande.ajoutCommande(System.String,System.Int32)">
+            <summary>
+            Ajoute une nouvelle commande dans la base de données.
+            </summary>
+            <param name="nomDoc">Le nom du document à commander.</param>
+            <param name="nbrExemplaire">Le nombre d'exemplaires à commander.</param>
+            <returns>Vrai si l'ajout a réussi, sinon faux.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.modele.DAOCommande.updateCommande(System.Int32,System.Int32)">
+            <summary>
+            Met à jour l'état d'une commande dans la base de données.
+            </summary>
+            <param name="id">L'identifiant de la commande à mettre à jour.</param>
+            <param name="etat">Le nouvel état de la commande.</param>
+            <returns>Vrai si la mise à jour a réussi, sinon faux.</returns>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.DAODocuments">
+            <summary>
+            Classe responsable des opérations de base de données liées aux documents tels que les livres, les DVD, les revues, etc.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAODocuments.getAllCategories">
+            <summary>
+            Récupère toutes les catégories de la base de données.
+            </summary>
+            <returns>Une liste de catégories.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAODocuments.getAllDescripteurs">
+            <summary>
+            Récupère tous les descripteurs de la base de données.
+            </summary>
+            <returns>Une liste de descripteurs.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAODocuments.getAllLivres">
+            <summary>
+            Récupère tous les livres de la base de données.
+            </summary>
+            <returns>Une liste de livres.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAODocuments.getCategorieByLivre(Mediateq_AP_SIO2.metier.Livre)">
+            <summary>
+            Récupère la catégorie associée à un livre spécifique.
+            </summary>
+            <param name="pLivre">Le livre pour lequel obtenir la catégorie.</param>
+            <returns>Un objet <see cref="T:Mediateq_AP_SIO2.metier.Categorie"/> ou <c>null</c> si la catégorie n'est pas trouvée.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAODocuments.getAllDVD">
+            <summary>
+            Récupère tous les DVD de la base de données.
+            </summary>
+            <returns>Une liste de DVD.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAODocuments.ajoutRevue(System.String,System.String,System.String,System.Int32,System.DateTime,System.Int32)">
+            <summary>
+            Ajoute une nouvelle revue dans la base de données.
+            </summary>
+            <param name="titre">Le titre de la revue.</param>
+            <param name="empruntable">Indique si la revue est empruntable.</param>
+            <param name="periodicite">La périodicité de la revue.</param>
+            <param name="delaisDispo">Le délai de mise à disposition de la revue.</param>
+            <param name="dateFinAbo">La date de fin d'abonnement.</param>
+            <param name="idDescripteur">L'identifiant du descripteur associé à la revue.</param>
+            <returns>Vrai si l'ajout a réussi, sinon faux.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAODocuments.getRevueById(System.Int32)">
+            <summary>
+            Récupère une revue par son identifiant.
+            </summary>
+            <param name="id">L'identifiant de la revue.</param>
+            <returns>Un objet <see cref="T:Mediateq_AP_SIO2.metier.Revue"/> si trouvé, sinon <c>null</c>.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAODocuments.renouvellement(System.String,System.String)">
+            <summary>
+            Renouvelle l'abonnement d'une revue pour un nombre de mois donné.
+            </summary>
+            <param name="id">L'identifiant de la revue à renouveler.</param>
+            <param name="nbMois">Le nombre de mois pour lequel renouveler l'abonnement.</param>
+            <returns>Vrai si le renouvellement a réussi, sinon faux.</returns>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.DAOPresse">
+            <summary>
+            Classe responsable des opérations de base de données liées à la presse, telles que les revues et les parutions.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAOPresse.getAllRevues">
+            <summary>
+            Récupère toutes les revues de la base de données.
+            </summary>
+            <returns>Une liste de revues.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.DAOPresse.getParutionByTitre(Mediateq_AP_SIO2.metier.Revue)">
+            <summary>
+            Récupère toutes les parutions associées à une revue spécifique.
+            </summary>
+            <param name="pTitre">La revue pour laquelle obtenir les parutions.</param>
+            <returns>Une liste de parutions.</returns>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.Program.Main">
+            <summary>
+            Point d'entrée principal de l'application.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.FrmMediateq">
+            <summary>
+            Représente le formulaire principal de l'application Mediateq, gérant les interactions de l'utilisateur avec l'interface graphique.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.FrmMediateq.lesCategories">
+            <summary>
+            Contient toutes les catégories disponibles.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.FrmMediateq.lesDescripteurs">
+            <summary>
+            Contient tous les descripteurs disponibles.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.FrmMediateq.lesRevues">
+            <summary>
+            Contient toutes les revues disponibles.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.FrmMediateq.lesLivres">
+            <summary>
+            Contient tous les livres disponibles.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.FrmMediateq.lesDVD">
+            <summary>
+            Contient tous les DVD disponibles.
+            </summary>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.FrmMediateq.lesCommandes">
+            <summary>
+            Contient toutes les commandes disponibles.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.#ctor">
+            <summary>
+            Constructeur du formulaire principal.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.FrmMediateq_Load(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché au chargement du formulaire.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.tabParutions_Enter(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'onglet "Parutions" est activé.
+            Initialise la source de données de la liste déroulante des titres avec toutes les revues.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.cbxTitres_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur change de titre dans la liste déroulante.
+            Met à jour le DataGridView avec les parutions associées au titre sélectionné.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.tabTitres_Enter(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'onglet "Titres" (Revues) est activé.
+            Initialise la liste déroulante des domaines avec les descripteurs disponibles.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.cbxDomaines_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur change de domaine dans la liste déroulante.
+            Met à jour le DataGridView avec les revues associées au descripteur sélectionné.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.tabLivres_Enter(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'onglet "Livres" est activé.
+            Charge en mémoire les catégories, les descripteurs, et les livres disponibles.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.btnRechercher_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsqu'on clique sur le bouton "Rechercher".
+            Recherche un livre par son numéro de document et met à jour les labels avec ses détails.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.txbTitre_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque le texte du champ de titre change.
+            Met à jour le DataGridView avec les livres dont le titre correspond à la saisie.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.lblTitreDVD_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur le titre du DVD (vide, sans fonction actuellement).
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.buttonConnexion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur le bouton de connexion.
+            Gère le processus de connexion de l'utilisateur et l'activation des onglets appropriés si la connexion réussit.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.buttonInscription_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur le bouton d'inscription.
+            Tente de créer un nouvel utilisateur avec les informations saisies.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.tabAboRevues_Enter(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'onglet "Abo Revues" est activé.
+            Affiche les revues dont l'abonnement expire dans moins de 60 jours.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.DGVRevues_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Évènement déclenché lorsqu'une cellule du DataGridView "Revues" est cliquée.
+            Actuellement sans action associée.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.buttonAjoutRevue_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur le bouton d'ajout de revue.
+            Tente d'ajouter une nouvelle revue avec les détails fournis et met à jour le DataGridView des revues.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur un bouton pour rechercher une revue par identifiant.
+            Met à jour les labels avec les détails de la revue trouvée.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.buttonAjoutMois_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur le bouton pour ajouter des mois à l'abonnement.
+            Tente de renouveler l'abonnement d'une revue pour un nombre de mois donné.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.buttonDeconnexion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur le bouton de déconnexion.
+            Retire les onglets de l'utilisateur connecté et réinitialise les informations de connexion.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.btnCommande_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur le bouton pour ajouter une nouvelle commande.
+            Tente de créer une nouvelle commande avec les détails fournis.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.dataGridView1_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur une cellule du DataGridView.
+            Met à jour le champ de texte avec le numéro de la commande sélectionnée.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.tabSuiviCommande_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur l'onglet "Suivi Commande" (actuellement sans action).
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.tabCommande_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur l'onglet "Commande".
+            Met à jour le DataGridView avec toutes les commandes et les états disponibles.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.BtnValidationModifCommande_Click(System.Object,System.EventArgs)">
+            <summary>
+            Évènement déclenché lorsque l'utilisateur clique sur le bouton de validation de modification de commande.
+            Met à jour l'état de la commande sélectionnée.
+            </summary>
+            <param name="sender">L'objet source qui a déclenché l'évènement.</param>
+            <param name="e">Les arguments de l'évènement.</param>
+        </member>
+        <member name="F:Mediateq_AP_SIO2.FrmMediateq.components">
+            <summary>
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.Dispose(System.Boolean)">
+            <summary>
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:Mediateq_AP_SIO2.FrmMediateq.InitializeComponent">
+            <summary>
+            Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+            le contenu de cette méthode avec l'éditeur de code.
+            </summary>
+        </member>
+        <member name="T:Mediateq_AP_SIO2.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:Mediateq_AP_SIO2.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>
